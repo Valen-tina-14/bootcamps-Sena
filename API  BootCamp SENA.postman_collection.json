@@ -1,0 +1,127 @@
+{
+	"info": {
+		"_postman_id": "25a32719-abeb-417d-bede-cfa1fd8751f8",
+		"name": "API  BootCamp SENA",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Traer todos los bootcamps",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/bootcamps",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"bootcamps"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Traer bootcamp por id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/bootcamps/9",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"bootcamps",
+						"9"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Actualizar bootcamps",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/bootcamps/9",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"bootcamps",
+						"9"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Crear bootcamps",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/bootcamps",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"bootcamps"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Eliminar  bootcamp",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/bootcamps/9",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"bootcamps",
+						"9"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
